@@ -1,5 +1,3 @@
-h1 {
-	color: red}
 
 p {
 	color: red ;
@@ -11,8 +9,39 @@ ul {
 
 .quote {
 	color: purple
+	padding: 20px;
+	background: #8d99c5;
+	border: 4px solid #5058bd;
+
 }
 
 #mainquote {
 	color: blue
+}
+
+html {
+  font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: 'Open Sarif'
+}
+
+h1 { 
+  color: blue; 
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  background: #8d99c5;
+  border: 4px solid #5058bd;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 200px 200px 20px;
+  border: 5px solid black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
 }
